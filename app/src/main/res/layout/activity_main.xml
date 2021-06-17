@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/oper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/oper2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7A7979"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="minus" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiply" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="divide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sqrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="sqrt" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
